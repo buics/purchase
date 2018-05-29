@@ -2,10 +2,8 @@ package Purchasing.Purchasing;
 
 import java.util.List;
 
-import org.springframework.data.annotation.Id;
-
 public class PurchaseQuotation {
-	@Id
+	
 	String id;
 	String vendor;
 	String contactPerson;

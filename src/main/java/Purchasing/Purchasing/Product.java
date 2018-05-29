@@ -1,10 +1,7 @@
 package Purchasing.Purchasing;
 
-import org.springframework.data.annotation.Id;
-
 public class Product {
 
-	@Id
 	String itemNumber;
 	String itemName;
 	String itemDescription;

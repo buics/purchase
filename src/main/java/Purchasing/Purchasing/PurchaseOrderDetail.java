@@ -2,15 +2,13 @@ package Purchasing.Purchasing;
 
 import java.util.List;
 
-import org.springframework.data.annotation.Id;
-
 public class PurchaseOrderDetail {
-	List<Product> productOrderList;
-	@Id
+	
 	int quantity;
 	String taxCode;
 	double total;
 	String status;
+	List<Product> productOrderList;
 	
 	public String getStatus() {
 		return status;

@@ -1,10 +1,8 @@
 package Purchasing.Purchasing;
 
-import org.springframework.data.annotation.Id;
-
 public class PurchaseQuotationContent {
 
-	@Id
+
 	String productNum;
 	String requiredDate;
 	String qoutedDate;
